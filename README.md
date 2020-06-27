@@ -38,8 +38,9 @@ python3 setup.py install
 python3 object_detection/builders/model_builder_test.py
 ```
 **How to train**
-- Please following TF Object Detection training tutorial
+- Please follow TF Object Detection training tutorial
 
 **How to get .uff model**
-- Use (this)[https://github.com/AastaNV/TRT_object_detection] repository to generate uff file. 
+- Use [this](https://github.com/AastaNV/TRT_object_detection) repository to generate uff file. 
+- With ssd-mobilenet-v1, please comment line 78 and 79 in model config file.
 
